@@ -1,109 +1,84 @@
 ---
-
+import MainLayout from "../layouts/MainLayout.astro";
 ---
 
-<style>
-  body {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 1024px;
-    margin: 0 auto;
-    padding: 16px;
-  }
-
-  a {
-    color: inherit;
-    font-weight: bold;
-  }
-</style>
-
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/ico" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>Temirlan's Corner | Competitive Programming</title>
-  </head>
-  <body>
-    <a href="/">Back to Home page</a>
-    <h1>Temirlan Baibolov | Competitive Programming</h1>
-    <section>
-      <h2>Roots</h2>
-      <p>
-        Having been introduced to competitive programming at the age of 12, I
-        have always liked challenging myself and my friends to solve harder and
-        harder puzzles. I have spent a lot of my high school time participating
-        in different online contests on popular platforms like <a
-          href="codeforces.com">codeforces.com</a
-        >
-        and <a href="atcoder.jp">atcoder.jp</a>. I wrote my first program ever
-        in Java, but eventually transitioned to C++ as it was more convenient
-        for general competitive programming purposes.
-      </p>
-    </section>
-    <section>
-      <h2>Mastering the craft</h2>
-      <p>
-        My competitive nature, support from my family and school and talking to
-        new friends who were also actively doing competitive programming has
-        eventually led me to success and a wide range of achievements. I have
-        become very proficient with algorithms and data structures. Math and
-        programming have become as natural to me as speaking a normal language.
-        I have been at IOI (International Olympiad in Informatics), the most
-        prestigious and one of the hardest competitions for high school students
-        ever, twice as a participant in my senior high school years, in 2019 and
-        2020 and won bronze and silver medals, respectively.
-      </p>
-      <p>
-        Having individually peaked in my last year of high school, I have
-        successfully graduated with a perfect GPA and was ready to embark on a
-        new journey in university. I have expressed my willingness to
-        participate in ICPC, a much more demanding and serious competition.
-        Going through months of intense training, we have been able to quality
-        to the final stage - The ICPC World Finals in Dhaka in 2022. Although we
-        were not able to win any medals on the Finals itself, our journey to the
-        top has been very long and full of challenges. Not only did we manage to
-        beat a lot of other teams, we were also working fluidly as a team,
-        distributing and discussing tasks efficiently between each other.
-      </p>
-      <p>
-        After having participated in the World Finals and having mostly achieved
-        everything I ever wanted in competitive programming, I have shifted my
-        focus towards web development. But I still was very active in the
-        competitive programming community and continued participating in ICPC in
-        subsequent years with new teams. We peaked as a top 4 team at SWERC 2022
-        in Milan, securing a silver medal and topping very strong teams from
-        highly acknowledged universities.
-      </p>
-    </section>
-    <section>
-      <h2>Aftermath</h2>
-      <p>
-        Now I treat competitive programming as a hobby, still solving a few hard
-        puzzles every once in a while. I have been teaching competitive
-        programming classes to newer university teams as well, both improving my
-        teaching skills and keeping my memory of algorithms and data structures
-        fresh.
-      </p>
-      <p>
-        I have also lately been very active in the problemsetting community. I
-        have come up and prepared a lot of problems by today, which ended up
-        being used at various competitions, including IZhO 2021, 2022, 2023 and
-        a <a href="https://codeforces.com">codeforces.com</a> round 673.
-      </p>
-    </section>
-    <section>
-      <h2>Achievements</h2>
-      <ul>
-        <li>Coming soon!</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Problems I have prepared</h2>
-      <ul>
-        <li>Coming soon!</li>
-      </ul>
-    </section>
-  </body>
-</html>
+<MainLayout title="Competitive Programming">
+  <section>
+    <h2>Roots</h2>
+    <p>
+      Having been introduced to competitive programming at the age of 12, I have
+      always liked challenging myself and my friends to solve harder and harder
+      puzzles. I have spent a lot of my high school time participating in
+      different online contests on popular platforms like <a
+        href="codeforces.com">codeforces.com</a
+      >
+      and <a href="atcoder.jp">atcoder.jp</a>. I wrote my first program ever in
+      Java, but eventually transitioned to C++ as it was more convenient for
+      general competitive programming purposes.
+    </p>
+  </section>
+  <section>
+    <h2>Mastering the craft</h2>
+    <p>
+      My competitive nature, support from my family and school and talking to
+      new friends who were also actively doing competitive programming has
+      eventually led me to success and a wide range of achievements. I have
+      become very proficient with algorithms and data structures. Math and
+      programming have become as natural to me as speaking a normal language. I
+      have been at IOI (International Olympiad in Informatics), the most
+      prestigious and one of the hardest competitions for high school students
+      ever, twice as a participant in my senior high school years, in 2019 and
+      2020 and won bronze and silver medals, respectively.
+    </p>
+    <p>
+      Having individually peaked in my last year of high school, I have
+      successfully graduated with a perfect GPA and was ready to embark on a new
+      journey in university. I have expressed my willingness to participate in
+      ICPC, a much more demanding and serious competition. Going through months
+      of intense training, we have been able to quality to the final stage - The
+      ICPC World Finals in Dhaka in 2022. Although we were not able to win any
+      medals on the Finals itself, our journey to the top has been very long and
+      full of challenges. Not only did we manage to beat a lot of other teams,
+      we were also working fluidly as a team, distributing and discussing tasks
+      efficiently between each other.
+    </p>
+    <p>
+      After having participated in the World Finals and having mostly achieved
+      everything I ever wanted in competitive programming, I have shifted my
+      focus towards web development. But I still was very active in the
+      competitive programming community and continued participating in ICPC in
+      subsequent years with new teams. We peaked as a top 4 team at SWERC 2022
+      in Milan, securing a silver medal and topping very strong teams from
+      highly acknowledged universities.
+    </p>
+  </section>
+  <section>
+    <h2>Aftermath</h2>
+    <p>
+      Now I treat competitive programming as a hobby, still solving a few hard
+      puzzles every once in a while. I have been teaching competitive
+      programming classes to newer university teams as well, both improving my
+      teaching skills and keeping my memory of algorithms and data structures
+      fresh.
+    </p>
+    <p>
+      I have also lately been very active in the problemsetting community. I
+      have come up and prepared a lot of problems by today, which ended up being
+      used at various competitions, including IZhO 2021, 2022, 2023 and a <a
+        href="https://codeforces.com">codeforces.com</a
+      > round 673.
+    </p>
+  </section>
+  <section>
+    <h2>Achievements</h2>
+    <ul>
+      <li>Coming soon!</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Problems I have prepared</h2>
+    <ul>
+      <li>Coming soon!</li>
+    </ul>
+  </section>
+</MainLayout>

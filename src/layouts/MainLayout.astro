@@ -1,0 +1,36 @@
+---
+import Nav from "../components/Nav.astro";
+import Footer from "../components/Footer.astro";
+const { title } = Astro.props;
+---
+
+<style>
+  body {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+
+  a {
+    color: inherit;
+    font-weight: bold;
+  }
+</style>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/ico" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Temirlan's Corner | {title}</title>
+  </head>
+  <body>
+    <Nav />
+    <h1>{title}</h1>
+    <slot />
+    <Footer />
+  </body>
+</html>
